@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==78.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hard-negative-retrieval-lab"
+version = "0.1.0"
+description = "Contrastive retrieval training, token MaxSim scoring, and IVF index experiments"
+requires-python = ">=3.11"
+dependencies = []
+
+readme = "README.md"
+license = "MIT"
+
+[project.optional-dependencies]
+sentence-transformers = ["sentence-transformers>=3,<6"]
+
+[project.scripts]
+hard-negative-retrieval = "hard_negative_retrieval.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

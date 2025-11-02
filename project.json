@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "09",
+  "repository_name": "hard-negative-retrieval",
+  "title": "Hard-Negative Retrieval Training",
+  "package": "hard_negative_retrieval",
+  "focus": "Contrastive learning, negative mining, ranking metrics",
+  "layout": {
+    "docs_root": "method",
+    "tests_root": "tests",
+    "tools_root": "bin",
+    "config_root": "experiments/configs",
+    "examples_root": "benchmarks/reference",
+    "verifier": "bin/check_retriever.py",
+    "source_roots": [
+      "src"
+    ],
+    "documents": {
+      "architecture": "method/encoder-and-index.md",
+      "design": "method/maxsim-and-partitions.md",
+      "review": "method/numerical-checks.md",
+      "experiments": "method/retrieval-runs.md",
+      "publishing": "method/sharing-an-index.md",
+      "validation": "method/verification-record.md",
+      "depth": "method/late-interaction-results.md"
+    }
+  }
+}
