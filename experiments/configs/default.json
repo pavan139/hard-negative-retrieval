@@ -1,0 +1,9 @@
+{
+  "seed": 7,
+  "dimension": 24,
+  "epochs": 35,
+  "learning_rate": 0.7,
+  "negatives": 5,
+  "temperature": 0.2,
+  "negative_strategy": "hard"
+}
