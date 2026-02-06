@@ -1,0 +1,1483 @@
+{
+  "documents": [
+    {
+      "id": "atlas-password",
+      "text": "atlas guide: replace your password in the account security panel. These instructions apply only to atlas."
+    },
+    {
+      "id": "atlas-billing",
+      "text": "atlas guide: download your invoice from the billing payment history. These instructions apply only to atlas."
+    },
+    {
+      "id": "atlas-export",
+      "text": "atlas guide: export your records as a csv file from the data export menu. These instructions apply only to atlas."
+    },
+    {
+      "id": "atlas-cancel",
+      "text": "atlas guide: cancel your subscription from the plan termination page. These instructions apply only to atlas."
+    },
+    {
+      "id": "atlas-invite",
+      "text": "atlas guide: invite a teammate using the workspace member invitation page. These instructions apply only to atlas."
+    },
+    {
+      "id": "atlas-webhook",
+      "text": "atlas guide: configure your webhook endpoint in the developer callback settings. These instructions apply only to atlas."
+    },
+    {
+      "id": "atlas-quota",
+      "text": "atlas guide: increase your storage quota with the capacity upgrade control. These instructions apply only to atlas."
+    },
+    {
+      "id": "atlas-region",
+      "text": "atlas guide: change your deployment region using the location migration menu. These instructions apply only to atlas."
+    },
+    {
+      "id": "boreal-password",
+      "text": "boreal guide: replace your password in the account security panel. These instructions apply only to boreal."
+    },
+    {
+      "id": "boreal-billing",
+      "text": "boreal guide: download your invoice from the billing payment history. These instructions apply only to boreal."
+    },
+    {
+      "id": "boreal-export",
+      "text": "boreal guide: export your records as a csv file from the data export menu. These instructions apply only to boreal."
+    },
+    {
+      "id": "boreal-cancel",
+      "text": "boreal guide: cancel your subscription from the plan termination page. These instructions apply only to boreal."
+    },
+    {
+      "id": "boreal-invite",
+      "text": "boreal guide: invite a teammate using the workspace member invitation page. These instructions apply only to boreal."
+    },
+    {
+      "id": "boreal-webhook",
+      "text": "boreal guide: configure your webhook endpoint in the developer callback settings. These instructions apply only to boreal."
+    },
+    {
+      "id": "boreal-quota",
+      "text": "boreal guide: increase your storage quota with the capacity upgrade control. These instructions apply only to boreal."
+    },
+    {
+      "id": "boreal-region",
+      "text": "boreal guide: change your deployment region using the location migration menu. These instructions apply only to boreal."
+    },
+    {
+      "id": "cobalt-password",
+      "text": "cobalt guide: replace your password in the account security panel. These instructions apply only to cobalt."
+    },
+    {
+      "id": "cobalt-billing",
+      "text": "cobalt guide: download your invoice from the billing payment history. These instructions apply only to cobalt."
+    },
+    {
+      "id": "cobalt-export",
+      "text": "cobalt guide: export your records as a csv file from the data export menu. These instructions apply only to cobalt."
+    },
+    {
+      "id": "cobalt-cancel",
+      "text": "cobalt guide: cancel your subscription from the plan termination page. These instructions apply only to cobalt."
+    },
+    {
+      "id": "cobalt-invite",
+      "text": "cobalt guide: invite a teammate using the workspace member invitation page. These instructions apply only to cobalt."
+    },
+    {
+      "id": "cobalt-webhook",
+      "text": "cobalt guide: configure your webhook endpoint in the developer callback settings. These instructions apply only to cobalt."
+    },
+    {
+      "id": "cobalt-quota",
+      "text": "cobalt guide: increase your storage quota with the capacity upgrade control. These instructions apply only to cobalt."
+    },
+    {
+      "id": "cobalt-region",
+      "text": "cobalt guide: change your deployment region using the location migration menu. These instructions apply only to cobalt."
+    },
+    {
+      "id": "delta-password",
+      "text": "delta guide: replace your password in the account security panel. These instructions apply only to delta."
+    },
+    {
+      "id": "delta-billing",
+      "text": "delta guide: download your invoice from the billing payment history. These instructions apply only to delta."
+    },
+    {
+      "id": "delta-export",
+      "text": "delta guide: export your records as a csv file from the data export menu. These instructions apply only to delta."
+    },
+    {
+      "id": "delta-cancel",
+      "text": "delta guide: cancel your subscription from the plan termination page. These instructions apply only to delta."
+    },
+    {
+      "id": "delta-invite",
+      "text": "delta guide: invite a teammate using the workspace member invitation page. These instructions apply only to delta."
+    },
+    {
+      "id": "delta-webhook",
+      "text": "delta guide: configure your webhook endpoint in the developer callback settings. These instructions apply only to delta."
+    },
+    {
+      "id": "delta-quota",
+      "text": "delta guide: increase your storage quota with the capacity upgrade control. These instructions apply only to delta."
+    },
+    {
+      "id": "delta-region",
+      "text": "delta guide: change your deployment region using the location migration menu. These instructions apply only to delta."
+    }
+  ],
+  "train": [
+    {
+      "id": "train-atlas-password-0",
+      "text": "How can I handle forgotten credential for atlas?",
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "id": "train-atlas-password-1",
+      "text": "Help with recover account access on atlas.",
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "id": "train-atlas-password-2",
+      "text": "For atlas, I need forgotten credential and recover account access.",
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "id": "train-atlas-billing-0",
+      "text": "How can I handle purchase receipt for atlas?",
+      "relevant": [
+        "atlas-billing"
+      ]
+    },
+    {
+      "id": "train-atlas-billing-1",
+      "text": "Help with proof of payment on atlas.",
+      "relevant": [
+        "atlas-billing"
+      ]
+    },
+    {
+      "id": "train-atlas-billing-2",
+      "text": "For atlas, I need purchase receipt and proof of payment.",
+      "relevant": [
+        "atlas-billing"
+      ]
+    },
+    {
+      "id": "train-atlas-export-0",
+      "text": "How can I handle spreadsheet copy for atlas?",
+      "relevant": [
+        "atlas-export"
+      ]
+    },
+    {
+      "id": "train-atlas-export-1",
+      "text": "Help with save table locally on atlas.",
+      "relevant": [
+        "atlas-export"
+      ]
+    },
+    {
+      "id": "train-atlas-export-2",
+      "text": "For atlas, I need spreadsheet copy and save table locally.",
+      "relevant": [
+        "atlas-export"
+      ]
+    },
+    {
+      "id": "train-atlas-cancel-0",
+      "text": "How can I handle stop membership for atlas?",
+      "relevant": [
+        "atlas-cancel"
+      ]
+    },
+    {
+      "id": "train-atlas-cancel-1",
+      "text": "Help with end recurring service on atlas.",
+      "relevant": [
+        "atlas-cancel"
+      ]
+    },
+    {
+      "id": "train-atlas-cancel-2",
+      "text": "For atlas, I need stop membership and end recurring service.",
+      "relevant": [
+        "atlas-cancel"
+      ]
+    },
+    {
+      "id": "train-atlas-invite-0",
+      "text": "How can I handle add colleague for atlas?",
+      "relevant": [
+        "atlas-invite"
+      ]
+    },
+    {
+      "id": "train-atlas-invite-1",
+      "text": "Help with onboard coworker on atlas.",
+      "relevant": [
+        "atlas-invite"
+      ]
+    },
+    {
+      "id": "train-atlas-invite-2",
+      "text": "For atlas, I need add colleague and onboard coworker.",
+      "relevant": [
+        "atlas-invite"
+      ]
+    },
+    {
+      "id": "train-atlas-webhook-0",
+      "text": "How can I handle event notification url for atlas?",
+      "relevant": [
+        "atlas-webhook"
+      ]
+    },
+    {
+      "id": "train-atlas-webhook-1",
+      "text": "Help with receive automatic callbacks on atlas.",
+      "relevant": [
+        "atlas-webhook"
+      ]
+    },
+    {
+      "id": "train-atlas-webhook-2",
+      "text": "For atlas, I need event notification url and receive automatic callbacks.",
+      "relevant": [
+        "atlas-webhook"
+      ]
+    },
+    {
+      "id": "train-atlas-quota-0",
+      "text": "How can I handle disk space limit for atlas?",
+      "relevant": [
+        "atlas-quota"
+      ]
+    },
+    {
+      "id": "train-atlas-quota-1",
+      "text": "Help with more room for files on atlas.",
+      "relevant": [
+        "atlas-quota"
+      ]
+    },
+    {
+      "id": "train-atlas-quota-2",
+      "text": "For atlas, I need disk space limit and more room for files.",
+      "relevant": [
+        "atlas-quota"
+      ]
+    },
+    {
+      "id": "train-atlas-region-0",
+      "text": "How can I handle move hosting geography for atlas?",
+      "relevant": [
+        "atlas-region"
+      ]
+    },
+    {
+      "id": "train-atlas-region-1",
+      "text": "Help with switch server country on atlas.",
+      "relevant": [
+        "atlas-region"
+      ]
+    },
+    {
+      "id": "train-atlas-region-2",
+      "text": "For atlas, I need move hosting geography and switch server country.",
+      "relevant": [
+        "atlas-region"
+      ]
+    },
+    {
+      "id": "train-boreal-password-0",
+      "text": "How can I handle forgotten credential for boreal?",
+      "relevant": [
+        "boreal-password"
+      ]
+    },
+    {
+      "id": "train-boreal-password-1",
+      "text": "Help with recover account access on boreal.",
+      "relevant": [
+        "boreal-password"
+      ]
+    },
+    {
+      "id": "train-boreal-password-2",
+      "text": "For boreal, I need forgotten credential and recover account access.",
+      "relevant": [
+        "boreal-password"
+      ]
+    },
+    {
+      "id": "train-boreal-billing-0",
+      "text": "How can I handle purchase receipt for boreal?",
+      "relevant": [
+        "boreal-billing"
+      ]
+    },
+    {
+      "id": "train-boreal-billing-1",
+      "text": "Help with proof of payment on boreal.",
+      "relevant": [
+        "boreal-billing"
+      ]
+    },
+    {
+      "id": "train-boreal-billing-2",
+      "text": "For boreal, I need purchase receipt and proof of payment.",
+      "relevant": [
+        "boreal-billing"
+      ]
+    },
+    {
+      "id": "train-boreal-export-0",
+      "text": "How can I handle spreadsheet copy for boreal?",
+      "relevant": [
+        "boreal-export"
+      ]
+    },
+    {
+      "id": "train-boreal-export-1",
+      "text": "Help with save table locally on boreal.",
+      "relevant": [
+        "boreal-export"
+      ]
+    },
+    {
+      "id": "train-boreal-export-2",
+      "text": "For boreal, I need spreadsheet copy and save table locally.",
+      "relevant": [
+        "boreal-export"
+      ]
+    },
+    {
+      "id": "train-boreal-cancel-0",
+      "text": "How can I handle stop membership for boreal?",
+      "relevant": [
+        "boreal-cancel"
+      ]
+    },
+    {
+      "id": "train-boreal-cancel-1",
+      "text": "Help with end recurring service on boreal.",
+      "relevant": [
+        "boreal-cancel"
+      ]
+    },
+    {
+      "id": "train-boreal-cancel-2",
+      "text": "For boreal, I need stop membership and end recurring service.",
+      "relevant": [
+        "boreal-cancel"
+      ]
+    },
+    {
+      "id": "train-boreal-invite-0",
+      "text": "How can I handle add colleague for boreal?",
+      "relevant": [
+        "boreal-invite"
+      ]
+    },
+    {
+      "id": "train-boreal-invite-1",
+      "text": "Help with onboard coworker on boreal.",
+      "relevant": [
+        "boreal-invite"
+      ]
+    },
+    {
+      "id": "train-boreal-invite-2",
+      "text": "For boreal, I need add colleague and onboard coworker.",
+      "relevant": [
+        "boreal-invite"
+      ]
+    },
+    {
+      "id": "train-boreal-webhook-0",
+      "text": "How can I handle event notification url for boreal?",
+      "relevant": [
+        "boreal-webhook"
+      ]
+    },
+    {
+      "id": "train-boreal-webhook-1",
+      "text": "Help with receive automatic callbacks on boreal.",
+      "relevant": [
+        "boreal-webhook"
+      ]
+    },
+    {
+      "id": "train-boreal-webhook-2",
+      "text": "For boreal, I need event notification url and receive automatic callbacks.",
+      "relevant": [
+        "boreal-webhook"
+      ]
+    },
+    {
+      "id": "train-boreal-quota-0",
+      "text": "How can I handle disk space limit for boreal?",
+      "relevant": [
+        "boreal-quota"
+      ]
+    },
+    {
+      "id": "train-boreal-quota-1",
+      "text": "Help with more room for files on boreal.",
+      "relevant": [
+        "boreal-quota"
+      ]
+    },
+    {
+      "id": "train-boreal-quota-2",
+      "text": "For boreal, I need disk space limit and more room for files.",
+      "relevant": [
+        "boreal-quota"
+      ]
+    },
+    {
+      "id": "train-boreal-region-0",
+      "text": "How can I handle move hosting geography for boreal?",
+      "relevant": [
+        "boreal-region"
+      ]
+    },
+    {
+      "id": "train-boreal-region-1",
+      "text": "Help with switch server country on boreal.",
+      "relevant": [
+        "boreal-region"
+      ]
+    },
+    {
+      "id": "train-boreal-region-2",
+      "text": "For boreal, I need move hosting geography and switch server country.",
+      "relevant": [
+        "boreal-region"
+      ]
+    },
+    {
+      "id": "train-cobalt-password-0",
+      "text": "How can I handle forgotten credential for cobalt?",
+      "relevant": [
+        "cobalt-password"
+      ]
+    },
+    {
+      "id": "train-cobalt-password-1",
+      "text": "Help with recover account access on cobalt.",
+      "relevant": [
+        "cobalt-password"
+      ]
+    },
+    {
+      "id": "train-cobalt-password-2",
+      "text": "For cobalt, I need forgotten credential and recover account access.",
+      "relevant": [
+        "cobalt-password"
+      ]
+    },
+    {
+      "id": "train-cobalt-billing-0",
+      "text": "How can I handle purchase receipt for cobalt?",
+      "relevant": [
+        "cobalt-billing"
+      ]
+    },
+    {
+      "id": "train-cobalt-billing-1",
+      "text": "Help with proof of payment on cobalt.",
+      "relevant": [
+        "cobalt-billing"
+      ]
+    },
+    {
+      "id": "train-cobalt-billing-2",
+      "text": "For cobalt, I need purchase receipt and proof of payment.",
+      "relevant": [
+        "cobalt-billing"
+      ]
+    },
+    {
+      "id": "train-cobalt-export-0",
+      "text": "How can I handle spreadsheet copy for cobalt?",
+      "relevant": [
+        "cobalt-export"
+      ]
+    },
+    {
+      "id": "train-cobalt-export-1",
+      "text": "Help with save table locally on cobalt.",
+      "relevant": [
+        "cobalt-export"
+      ]
+    },
+    {
+      "id": "train-cobalt-export-2",
+      "text": "For cobalt, I need spreadsheet copy and save table locally.",
+      "relevant": [
+        "cobalt-export"
+      ]
+    },
+    {
+      "id": "train-cobalt-cancel-0",
+      "text": "How can I handle stop membership for cobalt?",
+      "relevant": [
+        "cobalt-cancel"
+      ]
+    },
+    {
+      "id": "train-cobalt-cancel-1",
+      "text": "Help with end recurring service on cobalt.",
+      "relevant": [
+        "cobalt-cancel"
+      ]
+    },
+    {
+      "id": "train-cobalt-cancel-2",
+      "text": "For cobalt, I need stop membership and end recurring service.",
+      "relevant": [
+        "cobalt-cancel"
+      ]
+    },
+    {
+      "id": "train-cobalt-invite-0",
+      "text": "How can I handle add colleague for cobalt?",
+      "relevant": [
+        "cobalt-invite"
+      ]
+    },
+    {
+      "id": "train-cobalt-invite-1",
+      "text": "Help with onboard coworker on cobalt.",
+      "relevant": [
+        "cobalt-invite"
+      ]
+    },
+    {
+      "id": "train-cobalt-invite-2",
+      "text": "For cobalt, I need add colleague and onboard coworker.",
+      "relevant": [
+        "cobalt-invite"
+      ]
+    },
+    {
+      "id": "train-cobalt-webhook-0",
+      "text": "How can I handle event notification url for cobalt?",
+      "relevant": [
+        "cobalt-webhook"
+      ]
+    },
+    {
+      "id": "train-cobalt-webhook-1",
+      "text": "Help with receive automatic callbacks on cobalt.",
+      "relevant": [
+        "cobalt-webhook"
+      ]
+    },
+    {
+      "id": "train-cobalt-webhook-2",
+      "text": "For cobalt, I need event notification url and receive automatic callbacks.",
+      "relevant": [
+        "cobalt-webhook"
+      ]
+    },
+    {
+      "id": "train-cobalt-quota-0",
+      "text": "How can I handle disk space limit for cobalt?",
+      "relevant": [
+        "cobalt-quota"
+      ]
+    },
+    {
+      "id": "train-cobalt-quota-1",
+      "text": "Help with more room for files on cobalt.",
+      "relevant": [
+        "cobalt-quota"
+      ]
+    },
+    {
+      "id": "train-cobalt-quota-2",
+      "text": "For cobalt, I need disk space limit and more room for files.",
+      "relevant": [
+        "cobalt-quota"
+      ]
+    },
+    {
+      "id": "train-cobalt-region-0",
+      "text": "How can I handle move hosting geography for cobalt?",
+      "relevant": [
+        "cobalt-region"
+      ]
+    },
+    {
+      "id": "train-cobalt-region-1",
+      "text": "Help with switch server country on cobalt.",
+      "relevant": [
+        "cobalt-region"
+      ]
+    },
+    {
+      "id": "train-cobalt-region-2",
+      "text": "For cobalt, I need move hosting geography and switch server country.",
+      "relevant": [
+        "cobalt-region"
+      ]
+    },
+    {
+      "id": "train-delta-password-0",
+      "text": "How can I handle forgotten credential for delta?",
+      "relevant": [
+        "delta-password"
+      ]
+    },
+    {
+      "id": "train-delta-password-1",
+      "text": "Help with recover account access on delta.",
+      "relevant": [
+        "delta-password"
+      ]
+    },
+    {
+      "id": "train-delta-password-2",
+      "text": "For delta, I need forgotten credential and recover account access.",
+      "relevant": [
+        "delta-password"
+      ]
+    },
+    {
+      "id": "train-delta-billing-0",
+      "text": "How can I handle purchase receipt for delta?",
+      "relevant": [
+        "delta-billing"
+      ]
+    },
+    {
+      "id": "train-delta-billing-1",
+      "text": "Help with proof of payment on delta.",
+      "relevant": [
+        "delta-billing"
+      ]
+    },
+    {
+      "id": "train-delta-billing-2",
+      "text": "For delta, I need purchase receipt and proof of payment.",
+      "relevant": [
+        "delta-billing"
+      ]
+    },
+    {
+      "id": "train-delta-export-0",
+      "text": "How can I handle spreadsheet copy for delta?",
+      "relevant": [
+        "delta-export"
+      ]
+    },
+    {
+      "id": "train-delta-export-1",
+      "text": "Help with save table locally on delta.",
+      "relevant": [
+        "delta-export"
+      ]
+    },
+    {
+      "id": "train-delta-export-2",
+      "text": "For delta, I need spreadsheet copy and save table locally.",
+      "relevant": [
+        "delta-export"
+      ]
+    },
+    {
+      "id": "train-delta-cancel-0",
+      "text": "How can I handle stop membership for delta?",
+      "relevant": [
+        "delta-cancel"
+      ]
+    },
+    {
+      "id": "train-delta-cancel-1",
+      "text": "Help with end recurring service on delta.",
+      "relevant": [
+        "delta-cancel"
+      ]
+    },
+    {
+      "id": "train-delta-cancel-2",
+      "text": "For delta, I need stop membership and end recurring service.",
+      "relevant": [
+        "delta-cancel"
+      ]
+    },
+    {
+      "id": "train-delta-invite-0",
+      "text": "How can I handle add colleague for delta?",
+      "relevant": [
+        "delta-invite"
+      ]
+    },
+    {
+      "id": "train-delta-invite-1",
+      "text": "Help with onboard coworker on delta.",
+      "relevant": [
+        "delta-invite"
+      ]
+    },
+    {
+      "id": "train-delta-invite-2",
+      "text": "For delta, I need add colleague and onboard coworker.",
+      "relevant": [
+        "delta-invite"
+      ]
+    },
+    {
+      "id": "train-delta-webhook-0",
+      "text": "How can I handle event notification url for delta?",
+      "relevant": [
+        "delta-webhook"
+      ]
+    },
+    {
+      "id": "train-delta-webhook-1",
+      "text": "Help with receive automatic callbacks on delta.",
+      "relevant": [
+        "delta-webhook"
+      ]
+    },
+    {
+      "id": "train-delta-webhook-2",
+      "text": "For delta, I need event notification url and receive automatic callbacks.",
+      "relevant": [
+        "delta-webhook"
+      ]
+    },
+    {
+      "id": "train-delta-quota-0",
+      "text": "How can I handle disk space limit for delta?",
+      "relevant": [
+        "delta-quota"
+      ]
+    },
+    {
+      "id": "train-delta-quota-1",
+      "text": "Help with more room for files on delta.",
+      "relevant": [
+        "delta-quota"
+      ]
+    },
+    {
+      "id": "train-delta-quota-2",
+      "text": "For delta, I need disk space limit and more room for files.",
+      "relevant": [
+        "delta-quota"
+      ]
+    },
+    {
+      "id": "train-delta-region-0",
+      "text": "How can I handle move hosting geography for delta?",
+      "relevant": [
+        "delta-region"
+      ]
+    },
+    {
+      "id": "train-delta-region-1",
+      "text": "Help with switch server country on delta.",
+      "relevant": [
+        "delta-region"
+      ]
+    },
+    {
+      "id": "train-delta-region-2",
+      "text": "For delta, I need move hosting geography and switch server country.",
+      "relevant": [
+        "delta-region"
+      ]
+    }
+  ],
+  "dev": [
+    {
+      "id": "dev-atlas-password-0",
+      "text": "Explain forgotten credential within atlas please.",
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "id": "dev-atlas-billing-0",
+      "text": "Explain purchase receipt within atlas please.",
+      "relevant": [
+        "atlas-billing"
+      ]
+    },
+    {
+      "id": "dev-atlas-export-0",
+      "text": "Explain spreadsheet copy within atlas please.",
+      "relevant": [
+        "atlas-export"
+      ]
+    },
+    {
+      "id": "dev-atlas-cancel-0",
+      "text": "Explain stop membership within atlas please.",
+      "relevant": [
+        "atlas-cancel"
+      ]
+    },
+    {
+      "id": "dev-atlas-invite-0",
+      "text": "Explain add colleague within atlas please.",
+      "relevant": [
+        "atlas-invite"
+      ]
+    },
+    {
+      "id": "dev-atlas-webhook-0",
+      "text": "Explain event notification url within atlas please.",
+      "relevant": [
+        "atlas-webhook"
+      ]
+    },
+    {
+      "id": "dev-atlas-quota-0",
+      "text": "Explain disk space limit within atlas please.",
+      "relevant": [
+        "atlas-quota"
+      ]
+    },
+    {
+      "id": "dev-atlas-region-0",
+      "text": "Explain move hosting geography within atlas please.",
+      "relevant": [
+        "atlas-region"
+      ]
+    },
+    {
+      "id": "dev-boreal-password-0",
+      "text": "Explain forgotten credential within boreal please.",
+      "relevant": [
+        "boreal-password"
+      ]
+    },
+    {
+      "id": "dev-boreal-billing-0",
+      "text": "Explain purchase receipt within boreal please.",
+      "relevant": [
+        "boreal-billing"
+      ]
+    },
+    {
+      "id": "dev-boreal-export-0",
+      "text": "Explain spreadsheet copy within boreal please.",
+      "relevant": [
+        "boreal-export"
+      ]
+    },
+    {
+      "id": "dev-boreal-cancel-0",
+      "text": "Explain stop membership within boreal please.",
+      "relevant": [
+        "boreal-cancel"
+      ]
+    },
+    {
+      "id": "dev-boreal-invite-0",
+      "text": "Explain add colleague within boreal please.",
+      "relevant": [
+        "boreal-invite"
+      ]
+    },
+    {
+      "id": "dev-boreal-webhook-0",
+      "text": "Explain event notification url within boreal please.",
+      "relevant": [
+        "boreal-webhook"
+      ]
+    },
+    {
+      "id": "dev-boreal-quota-0",
+      "text": "Explain disk space limit within boreal please.",
+      "relevant": [
+        "boreal-quota"
+      ]
+    },
+    {
+      "id": "dev-boreal-region-0",
+      "text": "Explain move hosting geography within boreal please.",
+      "relevant": [
+        "boreal-region"
+      ]
+    },
+    {
+      "id": "dev-cobalt-password-0",
+      "text": "Explain forgotten credential within cobalt please.",
+      "relevant": [
+        "cobalt-password"
+      ]
+    },
+    {
+      "id": "dev-cobalt-billing-0",
+      "text": "Explain purchase receipt within cobalt please.",
+      "relevant": [
+        "cobalt-billing"
+      ]
+    },
+    {
+      "id": "dev-cobalt-export-0",
+      "text": "Explain spreadsheet copy within cobalt please.",
+      "relevant": [
+        "cobalt-export"
+      ]
+    },
+    {
+      "id": "dev-cobalt-cancel-0",
+      "text": "Explain stop membership within cobalt please.",
+      "relevant": [
+        "cobalt-cancel"
+      ]
+    },
+    {
+      "id": "dev-cobalt-invite-0",
+      "text": "Explain add colleague within cobalt please.",
+      "relevant": [
+        "cobalt-invite"
+      ]
+    },
+    {
+      "id": "dev-cobalt-webhook-0",
+      "text": "Explain event notification url within cobalt please.",
+      "relevant": [
+        "cobalt-webhook"
+      ]
+    },
+    {
+      "id": "dev-cobalt-quota-0",
+      "text": "Explain disk space limit within cobalt please.",
+      "relevant": [
+        "cobalt-quota"
+      ]
+    },
+    {
+      "id": "dev-cobalt-region-0",
+      "text": "Explain move hosting geography within cobalt please.",
+      "relevant": [
+        "cobalt-region"
+      ]
+    },
+    {
+      "id": "dev-delta-password-0",
+      "text": "Explain forgotten credential within delta please.",
+      "relevant": [
+        "delta-password"
+      ]
+    },
+    {
+      "id": "dev-delta-billing-0",
+      "text": "Explain purchase receipt within delta please.",
+      "relevant": [
+        "delta-billing"
+      ]
+    },
+    {
+      "id": "dev-delta-export-0",
+      "text": "Explain spreadsheet copy within delta please.",
+      "relevant": [
+        "delta-export"
+      ]
+    },
+    {
+      "id": "dev-delta-cancel-0",
+      "text": "Explain stop membership within delta please.",
+      "relevant": [
+        "delta-cancel"
+      ]
+    },
+    {
+      "id": "dev-delta-invite-0",
+      "text": "Explain add colleague within delta please.",
+      "relevant": [
+        "delta-invite"
+      ]
+    },
+    {
+      "id": "dev-delta-webhook-0",
+      "text": "Explain event notification url within delta please.",
+      "relevant": [
+        "delta-webhook"
+      ]
+    },
+    {
+      "id": "dev-delta-quota-0",
+      "text": "Explain disk space limit within delta please.",
+      "relevant": [
+        "delta-quota"
+      ]
+    },
+    {
+      "id": "dev-delta-region-0",
+      "text": "Explain move hosting geography within delta please.",
+      "relevant": [
+        "delta-region"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "test-atlas-password-0",
+      "text": "Where does atlas support recover account access?",
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "id": "test-atlas-password-1",
+      "text": "Find instructions about forgotten credential in atlas.",
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "id": "test-atlas-billing-0",
+      "text": "Where does atlas support proof of payment?",
+      "relevant": [
+        "atlas-billing"
+      ]
+    },
+    {
+      "id": "test-atlas-billing-1",
+      "text": "Find instructions about purchase receipt in atlas.",
+      "relevant": [
+        "atlas-billing"
+      ]
+    },
+    {
+      "id": "test-atlas-export-0",
+      "text": "Where does atlas support save table locally?",
+      "relevant": [
+        "atlas-export"
+      ]
+    },
+    {
+      "id": "test-atlas-export-1",
+      "text": "Find instructions about spreadsheet copy in atlas.",
+      "relevant": [
+        "atlas-export"
+      ]
+    },
+    {
+      "id": "test-atlas-cancel-0",
+      "text": "Where does atlas support end recurring service?",
+      "relevant": [
+        "atlas-cancel"
+      ]
+    },
+    {
+      "id": "test-atlas-cancel-1",
+      "text": "Find instructions about stop membership in atlas.",
+      "relevant": [
+        "atlas-cancel"
+      ]
+    },
+    {
+      "id": "test-atlas-invite-0",
+      "text": "Where does atlas support onboard coworker?",
+      "relevant": [
+        "atlas-invite"
+      ]
+    },
+    {
+      "id": "test-atlas-invite-1",
+      "text": "Find instructions about add colleague in atlas.",
+      "relevant": [
+        "atlas-invite"
+      ]
+    },
+    {
+      "id": "test-atlas-webhook-0",
+      "text": "Where does atlas support receive automatic callbacks?",
+      "relevant": [
+        "atlas-webhook"
+      ]
+    },
+    {
+      "id": "test-atlas-webhook-1",
+      "text": "Find instructions about event notification url in atlas.",
+      "relevant": [
+        "atlas-webhook"
+      ]
+    },
+    {
+      "id": "test-atlas-quota-0",
+      "text": "Where does atlas support more room for files?",
+      "relevant": [
+        "atlas-quota"
+      ]
+    },
+    {
+      "id": "test-atlas-quota-1",
+      "text": "Find instructions about disk space limit in atlas.",
+      "relevant": [
+        "atlas-quota"
+      ]
+    },
+    {
+      "id": "test-atlas-region-0",
+      "text": "Where does atlas support switch server country?",
+      "relevant": [
+        "atlas-region"
+      ]
+    },
+    {
+      "id": "test-atlas-region-1",
+      "text": "Find instructions about move hosting geography in atlas.",
+      "relevant": [
+        "atlas-region"
+      ]
+    },
+    {
+      "id": "test-boreal-password-0",
+      "text": "Where does boreal support recover account access?",
+      "relevant": [
+        "boreal-password"
+      ]
+    },
+    {
+      "id": "test-boreal-password-1",
+      "text": "Find instructions about forgotten credential in boreal.",
+      "relevant": [
+        "boreal-password"
+      ]
+    },
+    {
+      "id": "test-boreal-billing-0",
+      "text": "Where does boreal support proof of payment?",
+      "relevant": [
+        "boreal-billing"
+      ]
+    },
+    {
+      "id": "test-boreal-billing-1",
+      "text": "Find instructions about purchase receipt in boreal.",
+      "relevant": [
+        "boreal-billing"
+      ]
+    },
+    {
+      "id": "test-boreal-export-0",
+      "text": "Where does boreal support save table locally?",
+      "relevant": [
+        "boreal-export"
+      ]
+    },
+    {
+      "id": "test-boreal-export-1",
+      "text": "Find instructions about spreadsheet copy in boreal.",
+      "relevant": [
+        "boreal-export"
+      ]
+    },
+    {
+      "id": "test-boreal-cancel-0",
+      "text": "Where does boreal support end recurring service?",
+      "relevant": [
+        "boreal-cancel"
+      ]
+    },
+    {
+      "id": "test-boreal-cancel-1",
+      "text": "Find instructions about stop membership in boreal.",
+      "relevant": [
+        "boreal-cancel"
+      ]
+    },
+    {
+      "id": "test-boreal-invite-0",
+      "text": "Where does boreal support onboard coworker?",
+      "relevant": [
+        "boreal-invite"
+      ]
+    },
+    {
+      "id": "test-boreal-invite-1",
+      "text": "Find instructions about add colleague in boreal.",
+      "relevant": [
+        "boreal-invite"
+      ]
+    },
+    {
+      "id": "test-boreal-webhook-0",
+      "text": "Where does boreal support receive automatic callbacks?",
+      "relevant": [
+        "boreal-webhook"
+      ]
+    },
+    {
+      "id": "test-boreal-webhook-1",
+      "text": "Find instructions about event notification url in boreal.",
+      "relevant": [
+        "boreal-webhook"
+      ]
+    },
+    {
+      "id": "test-boreal-quota-0",
+      "text": "Where does boreal support more room for files?",
+      "relevant": [
+        "boreal-quota"
+      ]
+    },
+    {
+      "id": "test-boreal-quota-1",
+      "text": "Find instructions about disk space limit in boreal.",
+      "relevant": [
+        "boreal-quota"
+      ]
+    },
+    {
+      "id": "test-boreal-region-0",
+      "text": "Where does boreal support switch server country?",
+      "relevant": [
+        "boreal-region"
+      ]
+    },
+    {
+      "id": "test-boreal-region-1",
+      "text": "Find instructions about move hosting geography in boreal.",
+      "relevant": [
+        "boreal-region"
+      ]
+    },
+    {
+      "id": "test-cobalt-password-0",
+      "text": "Where does cobalt support recover account access?",
+      "relevant": [
+        "cobalt-password"
+      ]
+    },
+    {
+      "id": "test-cobalt-password-1",
+      "text": "Find instructions about forgotten credential in cobalt.",
+      "relevant": [
+        "cobalt-password"
+      ]
+    },
+    {
+      "id": "test-cobalt-billing-0",
+      "text": "Where does cobalt support proof of payment?",
+      "relevant": [
+        "cobalt-billing"
+      ]
+    },
+    {
+      "id": "test-cobalt-billing-1",
+      "text": "Find instructions about purchase receipt in cobalt.",
+      "relevant": [
+        "cobalt-billing"
+      ]
+    },
+    {
+      "id": "test-cobalt-export-0",
+      "text": "Where does cobalt support save table locally?",
+      "relevant": [
+        "cobalt-export"
+      ]
+    },
+    {
+      "id": "test-cobalt-export-1",
+      "text": "Find instructions about spreadsheet copy in cobalt.",
+      "relevant": [
+        "cobalt-export"
+      ]
+    },
+    {
+      "id": "test-cobalt-cancel-0",
+      "text": "Where does cobalt support end recurring service?",
+      "relevant": [
+        "cobalt-cancel"
+      ]
+    },
+    {
+      "id": "test-cobalt-cancel-1",
+      "text": "Find instructions about stop membership in cobalt.",
+      "relevant": [
+        "cobalt-cancel"
+      ]
+    },
+    {
+      "id": "test-cobalt-invite-0",
+      "text": "Where does cobalt support onboard coworker?",
+      "relevant": [
+        "cobalt-invite"
+      ]
+    },
+    {
+      "id": "test-cobalt-invite-1",
+      "text": "Find instructions about add colleague in cobalt.",
+      "relevant": [
+        "cobalt-invite"
+      ]
+    },
+    {
+      "id": "test-cobalt-webhook-0",
+      "text": "Where does cobalt support receive automatic callbacks?",
+      "relevant": [
+        "cobalt-webhook"
+      ]
+    },
+    {
+      "id": "test-cobalt-webhook-1",
+      "text": "Find instructions about event notification url in cobalt.",
+      "relevant": [
+        "cobalt-webhook"
+      ]
+    },
+    {
+      "id": "test-cobalt-quota-0",
+      "text": "Where does cobalt support more room for files?",
+      "relevant": [
+        "cobalt-quota"
+      ]
+    },
+    {
+      "id": "test-cobalt-quota-1",
+      "text": "Find instructions about disk space limit in cobalt.",
+      "relevant": [
+        "cobalt-quota"
+      ]
+    },
+    {
+      "id": "test-cobalt-region-0",
+      "text": "Where does cobalt support switch server country?",
+      "relevant": [
+        "cobalt-region"
+      ]
+    },
+    {
+      "id": "test-cobalt-region-1",
+      "text": "Find instructions about move hosting geography in cobalt.",
+      "relevant": [
+        "cobalt-region"
+      ]
+    },
+    {
+      "id": "test-delta-password-0",
+      "text": "Where does delta support recover account access?",
+      "relevant": [
+        "delta-password"
+      ]
+    },
+    {
+      "id": "test-delta-password-1",
+      "text": "Find instructions about forgotten credential in delta.",
+      "relevant": [
+        "delta-password"
+      ]
+    },
+    {
+      "id": "test-delta-billing-0",
+      "text": "Where does delta support proof of payment?",
+      "relevant": [
+        "delta-billing"
+      ]
+    },
+    {
+      "id": "test-delta-billing-1",
+      "text": "Find instructions about purchase receipt in delta.",
+      "relevant": [
+        "delta-billing"
+      ]
+    },
+    {
+      "id": "test-delta-export-0",
+      "text": "Where does delta support save table locally?",
+      "relevant": [
+        "delta-export"
+      ]
+    },
+    {
+      "id": "test-delta-export-1",
+      "text": "Find instructions about spreadsheet copy in delta.",
+      "relevant": [
+        "delta-export"
+      ]
+    },
+    {
+      "id": "test-delta-cancel-0",
+      "text": "Where does delta support end recurring service?",
+      "relevant": [
+        "delta-cancel"
+      ]
+    },
+    {
+      "id": "test-delta-cancel-1",
+      "text": "Find instructions about stop membership in delta.",
+      "relevant": [
+        "delta-cancel"
+      ]
+    },
+    {
+      "id": "test-delta-invite-0",
+      "text": "Where does delta support onboard coworker?",
+      "relevant": [
+        "delta-invite"
+      ]
+    },
+    {
+      "id": "test-delta-invite-1",
+      "text": "Find instructions about add colleague in delta.",
+      "relevant": [
+        "delta-invite"
+      ]
+    },
+    {
+      "id": "test-delta-webhook-0",
+      "text": "Where does delta support receive automatic callbacks?",
+      "relevant": [
+        "delta-webhook"
+      ]
+    },
+    {
+      "id": "test-delta-webhook-1",
+      "text": "Find instructions about event notification url in delta.",
+      "relevant": [
+        "delta-webhook"
+      ]
+    },
+    {
+      "id": "test-delta-quota-0",
+      "text": "Where does delta support more room for files?",
+      "relevant": [
+        "delta-quota"
+      ]
+    },
+    {
+      "id": "test-delta-quota-1",
+      "text": "Find instructions about disk space limit in delta.",
+      "relevant": [
+        "delta-quota"
+      ]
+    },
+    {
+      "id": "test-delta-region-0",
+      "text": "Where does delta support switch server country?",
+      "relevant": [
+        "delta-region"
+      ]
+    },
+    {
+      "id": "test-delta-region-1",
+      "text": "Find instructions about move hosting geography in delta.",
+      "relevant": [
+        "delta-region"
+      ]
+    }
+  ],
+  "source": "synthetic-v1; product x intent; held-out query templates; shared corpus"
+}
