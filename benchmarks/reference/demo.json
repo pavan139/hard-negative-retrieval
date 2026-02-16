@@ -1,0 +1,315 @@
+{
+  "dataset_sha256": "7060c43fd0008ac6824290041d7cb256c9359b3a96b7ac657b8f69203d6b79f8",
+  "dataset_source": "synthetic-v1; product x intent; held-out query templates; shared corpus",
+  "document_count": 32,
+  "examples": [
+    {
+      "query": "Where does atlas support recover account access?",
+      "query_id": "test-atlas-password-0",
+      "rankings": {
+        "tfidf_cosine": [
+          {
+            "document_id": "atlas-password",
+            "score": 0.6463715286418055
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.3705438037939212
+          },
+          {
+            "document_id": "atlas-billing",
+            "score": 0.3614416943946044
+          }
+        ],
+        "token_overlap": [
+          {
+            "document_id": "atlas-password",
+            "score": 0.25
+          },
+          {
+            "document_id": "atlas-billing",
+            "score": 0.1111111111111111
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.1111111111111111
+          }
+        ],
+        "trained_dual_encoder": [
+          {
+            "document_id": "atlas-password",
+            "score": 3.3544061915380783
+          },
+          {
+            "document_id": "atlas-billing",
+            "score": 1.6704434877666734
+          },
+          {
+            "document_id": "atlas-invite",
+            "score": 1.5292727948664562
+          }
+        ]
+      },
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "query": "Find instructions about forgotten credential in atlas.",
+      "query_id": "test-atlas-password-1",
+      "rankings": {
+        "tfidf_cosine": [
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.594792590739857
+          },
+          {
+            "document_id": "atlas-billing",
+            "score": 0.5801819909257844
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 0.5801819909257844
+          }
+        ],
+        "token_overlap": [
+          {
+            "document_id": "atlas-billing",
+            "score": 0.125
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.125
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 0.125
+          }
+        ],
+        "trained_dual_encoder": [
+          {
+            "document_id": "atlas-password",
+            "score": 4.450941204082584
+          },
+          {
+            "document_id": "atlas-billing",
+            "score": 2.654535240247166
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 2.519481058525036
+          }
+        ]
+      },
+      "relevant": [
+        "atlas-password"
+      ]
+    },
+    {
+      "query": "Where does atlas support proof of payment?",
+      "query_id": "test-atlas-billing-0",
+      "rankings": {
+        "tfidf_cosine": [
+          {
+            "document_id": "atlas-billing",
+            "score": 0.6463715286418055
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.3705438037939212
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 0.3614416943946044
+          }
+        ],
+        "token_overlap": [
+          {
+            "document_id": "atlas-billing",
+            "score": 0.2857142857142857
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.125
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 0.125
+          }
+        ],
+        "trained_dual_encoder": [
+          {
+            "document_id": "atlas-billing",
+            "score": 4.144461728901568
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 2.451814696208532
+          },
+          {
+            "document_id": "atlas-region",
+            "score": 2.335814685358506
+          }
+        ]
+      },
+      "relevant": [
+        "atlas-billing"
+      ]
+    },
+    {
+      "query": "Find instructions about purchase receipt in atlas.",
+      "query_id": "test-atlas-billing-1",
+      "rankings": {
+        "tfidf_cosine": [
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.594792590739857
+          },
+          {
+            "document_id": "atlas-billing",
+            "score": 0.5801819909257844
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 0.5801819909257844
+          }
+        ],
+        "token_overlap": [
+          {
+            "document_id": "atlas-billing",
+            "score": 0.125
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 0.125
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 0.125
+          }
+        ],
+        "trained_dual_encoder": [
+          {
+            "document_id": "atlas-billing",
+            "score": 4.377352567073029
+          },
+          {
+            "document_id": "atlas-cancel",
+            "score": 2.6834756863220353
+          },
+          {
+            "document_id": "atlas-password",
+            "score": 2.6559165141815306
+          }
+        ]
+      },
+      "relevant": [
+        "atlas-billing"
+      ]
+    }
+  ],
+  "limitations": [
+    "Closed-corpus synthetic query-template benchmark, not evidence of pretrained or real-world accuracy.",
+    "Training sees corpus text and train queries only; dev/test labels never enter training.",
+    "Scores are retrieval-only; no LLM generation is performed."
+  ],
+  "project": "hard-negative-retrieval",
+  "split_sizes": {
+    "dev": 32,
+    "test": 64,
+    "train": 96
+  },
+  "synthetic": true,
+  "training": {
+    "algorithm": "mean-pooling dual encoder; InfoNCE SGD",
+    "config": {
+      "dimension": 24,
+      "epochs": 35,
+      "learning_rate": 0.7,
+      "negative_strategy": "hard",
+      "negatives": 5,
+      "seed": 7,
+      "temperature": 0.2
+    },
+    "epoch_mean_training_loss": [
+      0.43894390087570767,
+      0.331226242046611,
+      0.05121670051301084,
+      0.018075871104931324,
+      0.012221086093485378,
+      0.009242005578063484,
+      0.0074076918178336655,
+      0.0061744353742832865,
+      0.005283454077390466,
+      0.004613343175564204,
+      0.0040953034063302045,
+      0.003679767369425028,
+      0.0033367231148229335,
+      0.003054713964692035,
+      0.002815692863053184,
+      0.0026094480572173007,
+      0.0024341619883245236,
+      0.002279108865485916,
+      0.002143120731290582,
+      0.0020225553025850127,
+      0.0019149216142069585,
+      0.0018192100275843763,
+      0.0017316594024326948,
+      0.0016527927444714614,
+      0.0015803053960038265,
+      0.001514792351087905,
+      0.0014552101475615957,
+      0.0013993851420964394,
+      0.001347773592422478,
+      0.0013007052536015233,
+      0.001255437258541307,
+      0.0012150403661039626,
+      0.0011763950144132636,
+      0.0011411194307242949,
+      0.0011070981978921202
+    ],
+    "epoch_order_sha256": [
+      "85e1f2402bac0af8c36d918730e7276a91299fe24f750adadf755203d8dca0e7",
+      "c4145db30e7f5d1e3a85341254ebc9327ec1a9625f4ddad6d144372e33435b51",
+      "fe887f15107fd6c5855e890e5bda624a91ab5f49ca7d94290add8e533867d1da",
+      "72515f390e46bbfaa200b10c539cd314bc36e394f03750d7e141eeed8c4fb341",
+      "82a8321d9d7f9d9cc1d8b96eb2d09ee96aaed381b66e9b16e91fa1bd79155268",
+      "0fd494b0038f53288ec3b20e88ab6a9e38dfbd824b44e82164ff2e589d1e54f0",
+      "4b6b3a79e4abe116ad7a72914a54681b7f36053d7b1ac1cc0096596dce003484",
+      "8095e0d7b870810eb628893ea6126923fcf36f5dbca2f92b293300f366e0ca86",
+      "4dede06c836ff03182b3dd0cd277bf6ed1eb964ef46949d634813e0f0f2d8e8b",
+      "f1d18391def3499e4619c794e3def31164963ba8a0b7d1c3b0d9b6c5e4e1bbc4",
+      "d4e9df7b93af9a63828e54e3865fb9ee626149846890ef6c02a1290f3123435b",
+      "21a5b9dd49ff3200f7467906bf41c8ec5017d6c21fc4f9103ff179f85831326f",
+      "f067508a93bb5990488300b194d7c9a417355b7697b84ba7f72df526c011cbc7",
+      "21431112e3771511719607b7e65f14913b33bbdf5d1577e1b3eae5023c291e1f",
+      "b7ac90e1c5a535096630ad74b157e78efaa66b2441844247571df077f1dff9f9",
+      "00b8b98fec7343d3848a43de9cf642ab1740b7f34aaa8c69c28006bedd587644",
+      "01bb8704dd15e76cae649a24f5554dc23628532f29d9821d9e01684c2c3406fc",
+      "9fdfae14b660324282d9f9d85300feb7dc4de5dcd1a6040d22698fb25577a8dd",
+      "23778d2267bdea0bb45a63bd57097bf439e2bad72235889ab552bd1175e0bb5e",
+      "7bd397d76902d72a1abca180c05cfecf5c046c0fa420e895ead2561163cee092",
+      "c532c49a80b422ce44038cf62c2c2b0acab385a98be8399950f77e5de86f638f",
+      "cadb921688bc35c5a39ecc69ddc4929159e309fe30622ecea18a2438d6156c3b",
+      "cb612f3313f24c831f2191d918cea271bb288611ca83b642daff475a50ae5102",
+      "131d9603742c47f7e1e24db2169b997d2c45236eb9498f6829d528d74ee81d77",
+      "f3715cdc613ca5e57245c2a47ea26871b31094b136a3e1cf22b9be9075d6c1be",
+      "3ba027a50b479971e52b3a448e6831c799dac6cd23a5dce19d2aa45fc6405586",
+      "51ad4c87eab5116353baef8e190791588bba23df3292d4785564ab7a3edcf1ac",
+      "333a7b10302cdb5394ba79f39805450ba2aa8f7f2a022070c3d3f4b48ae23e2c",
+      "c7a7abd4a3d3ec7327ff0cb2db78afe2e3638915574e81fe5054550e70fd4f78",
+      "ac881625da99c3e88f3cb369143ff296c0590662d717c84e725a1f89d30f3a96",
+      "604f536bdac6d0976fd961ff86b8813bca8ef0e23956a7d5ece25a2bb41e70b8",
+      "4c4f3687380acd2f228dd50f03898dfa144433ae1acd399a12288e3e40e63247",
+      "19117c65051ba08fe29ef20a5568cae78cc651cc0d850bf2e29e370099c71161",
+      "7aabee1e1da885289aa4122c205ad4d5c6c4a642e1c09dcbc93eb06fae3a871c",
+      "6cff21add9cb06d014a14bf9da2191fdb4885c8a800a2867fa88e5cceb147ebf"
+    ],
+    "mining": "lexical then model-mined",
+    "negative_pairs_used": 16800,
+    "negative_strategy": "hard",
+    "train_query_count": 96,
+    "training_query_sha256": "6d4fdd741bac8009751024f5d88e6cf6b1b128e33448b88da5f3c76f3d9b55cd",
+    "vocabulary_size": 87
+  }
+}
