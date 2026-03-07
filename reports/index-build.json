@@ -1,0 +1,22 @@
+{
+  "index": "artifacts/late-interaction/rebuilt-index.json",
+  "encoder_sha256": "ab5a844d98f125cf0f315c4645c8e147f0ea5d51989688caf9e4c01243e20fd2",
+  "training": {
+    "algorithm": "spherical_kmeans++",
+    "seed": 7,
+    "iterations_executed": 2,
+    "assignment_dot_products": 2304,
+    "seeding_dot_products": 2548,
+    "build_seconds": 0.03758891500001482,
+    "cluster_sizes": [
+      64,
+      4,
+      4,
+      9,
+      3,
+      4,
+      4,
+      4
+    ]
+  }
+}

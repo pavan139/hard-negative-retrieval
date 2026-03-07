@@ -1,0 +1,34 @@
+{
+  "encoder_sha256": "ab5a844d98f125cf0f315c4645c8e147f0ea5d51989688caf9e4c01243e20fd2",
+  "rankings": [
+    [
+      "binding-18-a",
+      2.4919668987609085
+    ],
+    [
+      "binding-18-b",
+      2.4919668987609085
+    ],
+    [
+      "binding-23-a",
+      2.3232413936684204
+    ],
+    [
+      "binding-23-b",
+      2.3232413936684204
+    ],
+    [
+      "binding-11-a",
+      2.2573093258734223
+    ]
+  ],
+  "candidates_reranked": 16,
+  "maxsim_token_dot_products": 785,
+  "coarse_dot_products": 76,
+  "query_seconds": 0.0038098020013421774,
+  "probed_clusters": [
+    0,
+    5
+  ],
+  "candidates_before_budget": 68
+}
