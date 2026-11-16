@@ -1,5 +1,16 @@
 # Hard-negative retrieval
 
+<!-- at-a-glance -->
+[![ci](https://github.com/pavan139/hard-negative-retrieval/actions/workflows/ci.yml/badge.svg)](https://github.com/pavan139/hard-negative-retrieval/actions/workflows/ci.yml) ![license: MIT](https://img.shields.io/badge/license-MIT-blue)
+
+| | |
+| --- | --- |
+| **Problem** | Approximate indexes trade recall for speed, and perfect candidate recall still does not make a ranking correct. |
+| **Result** | Index recall@5 vs exhaustive MaxSim rises from **0.74** (1 probe, 16 candidates) to **1.00** (8 probes, 96 candidates). |
+| **Try it** | `pip install -e .` then `python -m hard_negative_retrieval index benchmark --epochs 8 --clusters 8 --queries 128 --artifact-directory artifacts/index --output artifacts/index-results.json` |
+<!-- /at-a-glance -->
+
+
 Probing every index cluster reproduces the exhaustive ranking. That does not make the ranking correct.
 
 On the recorded 96-document corpus, exhaustive MaxSim places the relevant document first for **74/128 queries**: 64/64 alias questions and 10/64 relation-binding questions. The latter swap roles while keeping the same token multiset. Non-contextual token vectors cannot distinguish those documents, even with perfect candidate recall.
